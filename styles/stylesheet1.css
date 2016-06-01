@@ -207,12 +207,13 @@ li {
 
 }
 
-#page2right {
-     width: auto;
+#work {
+    width: auto;
     height: 960px;
-    padding: 2em;
     background-color: #353133;
+    padding: 2em;
 }
+
 #page3 {
     width: auto;
     height: 960px;
@@ -224,7 +225,7 @@ li {
 
 @media only screen and (min-width:1024px) {
     #home {
-    width: 50%;
+    width: auto;
     height: 960px;
 }
 
@@ -233,24 +234,27 @@ li {
     width: 40%;
     height: 960px;
     background-color: white;
+    float: right;
     
 
 }
 #page2 {
-    width: 40%;
+    width: 60%;
     height: 960px;
     background-color: white;
-  
 
 }
-    #page2right {
-        width: 50%;
-        float: right;
-        height: 960px;
+
+    #work {
+    width: 40%;
+    height: 960px; 
+    float: right;
     }
+    
 
 #page3 {
     width: 40%;
     height: 960px;
+    
 }
 }
