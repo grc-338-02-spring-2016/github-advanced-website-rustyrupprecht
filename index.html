@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    
+<html>
+
+<head>
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,400italic' rel='stylesheet' type='text/css'>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusty Rupprecht</title>
+    
+    <!--Detects device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font Awesome Icon Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <!--Reset stylesheet removes browser stylesheet default settings-->
+    <link href="styles/reset.css" type="text/css" rel="stylesheet">
+    <link href="styles/stylesheet1.css" type="text/css" rel="stylesheet">
+    
+  
+</head> 
+    
+<body>
+   
+    
+    <!--Sometimes called Wrapper, everything is inside this container-->
+    <div class="container">
+        
+ 
+
+    <div class="nav"><!--Menu Bar-->
+        <nav>    
+        <ul>
+                <li><a href="#home" class="smoothScroll">Home</a></li>
+                <li><a href="#about" class="smoothScroll">About</a></li>
+                <li><a href="#experience" class="smoothScroll">Experience</a></li>
+                <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                
+            </ul>
+  </nav>
+
+        </div>
+
+       
+        <main>
+
+        
+
+        </main>
+
+
+
+    </div>
+    <!--end of container div-->
+  <div id="home">
+      <a id="top" class="smooth"></a>
+      <h1>RR</h1>  
+    </div>     
+
+    <div id="page1">
+  <a id="about" class="smooth"></a>
+ 
+        <div id="text1"> <br><p><strong>I am a third year Graphic Communication major at California Polytechnic University in San Luis Obispo.</strong><br><br> I am interested in the fields of design, web, digital photography, and videography. Ever since I was a child, my interests have been in creative fields, starting with drawing. Since picking up a pen for the first time, I have moved into the realm of digital creation and now embrace technology and the advantages it brings to design. <br><br>In my free time I enjoy rock climbing, yoga, and spending time outside. Music is another huge aspect of my life, and something I draw creative inspiration from constantly. Working for my college radio station, KCPR, has helped me to delve even deeper into the industry and further my knowledge of music.</p> </div>
+        <br><br><img src="images/bouldering.jpg" alt="rock climbing" style="width:512px;height:345px;">
+</div>
+ 
+<div id="page2">
+  <a id="experience" class="smooth"></a>
+    <p><strong><br>Here are projects I have worked on.</strong>
+    </p>
+ 
+</div>
+  
+<div id="page3">
+  <a id="contact" class="smooth"></a>
+    <p><strong><br>Contact Information</strong><br><br>I am always open to work on new projects or collaborate with other creatives. Send me an email at <a href="mailto:rrupprec@calpoly.edu">rrupprec@calpoly.edu</a> <br><br></p>
+    <p><strong>Or connect with me below:</strong><br><br>
+        </p>
+   
+    <ul>
+    <li><a href="https://www.linkedin.com/in/robert-rupprecht-59553691"><i class="fa fa-linkedin fa-3x"></i></a></li>
+    <li><a href="https://500px.com/rustyrupp"><i class="fa fa-500px fa-3x" aria-hidden="true"></i></a></li>
+    <li><!--link to pdf of resume--><i class="fa fa-file-text fa-3x" aria-hidden="true"></i></li>
+    </ul>
+ </div>
+    
+  
+ 
+    <!--Js for sticky menu
+<script>$(document).ready(function() {
+var stickyNavTop = $('.nav').offset().top;
+ 
+var stickyNav = function(){
+var scrollTop = $(window).scrollTop();
+      
+if (scrollTop > stickyNavTop) { 
+    $('.nav').addClass('sticky');
+} else {
+    $('.nav').removeClass('sticky'); 
+}
+};
+ 
+stickyNav();
+ 
+$(window).scroll(function() {
+    stickyNav();
+});
+});
+</script> -->
+    <!--smooth scrolling between pages-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>    
+</body>
+</html>
